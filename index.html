@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Booki</title>
-    <!-- insert page icon -->
-    <link rel="icon" type="image/svg" href="" />
-
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- Style.CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Font Raleway js -->
+    <!-- page icon -->
+    <link rel="icon" type="image/svg" href="./images/logo/Booki-logo-ico.ico">
+    <!-- reset.CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- style.CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- font awesome icons -->
-    
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
-    
-   
     <script
       src="https://kit.fontawesome.com/951604296e.js"
       crossorigin="anonymous"
     ></script>
-
-
-  
   </head>
   <body>
     <header>
       <div>
-        <img class="logo" src="./images/logo/Booki.png" />
+        <img class="logo" src="./images/logo/Booki.png" alt="Booki Logo">
       </div>
       <nav class="navLinks">
         <a href="#accommodations">
@@ -51,11 +43,11 @@
         <h1>Find a place for your dream vacation</h1>
         <small>Downtown or in nature</small>
       </div>
-      <div class="searchInput">
+      <form class="searchInput">
         <span class="iconInput">
           <i class="fa-solid fa-location-dot"></i>
         </span>
-        <input type="text" value="Marseille, France" id="textInput"/>
+        <input type="text" value="Marseille, France" id="textInput">
         <button class="searchButton">
           <span class="searchDesktop">
             Search
@@ -64,10 +56,10 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </span>
         </button>
-      </div>
+      </form>
       <div class="filter">
         <span class="filterLabel">
-          <h2>Filters</h2>
+          Filters
         </span>
         <div class="filterButtons">
           <button class="filterButton">
@@ -105,9 +97,6 @@
         </div>
       </div>
       <div class="filterInfo">
-      <!--
-        <i class="fa-solid fa-info"></i>
-      -->
         <i class="fa-solid fa-circle-info"></i> 
         <small>More than 500 accommodations are availabe in this city</small>
       </div>
@@ -118,9 +107,9 @@
             <h2>Accommodations in Marseille</h2>
           </div>
           <div class="accommodationCards">
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+                <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Room at Auberge la Cannebière">
               </div>
               <div class="cardContent">
                 <h3>Auberge la Cannebière</h3>
@@ -134,9 +123,9 @@
                 </div>
               </div>
             </a>
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Room at Hotel du Port">
               </div>
               <div class="cardContent">
                 <h3>Hotel du Port</h3>
@@ -150,9 +139,9 @@
                 </div>
               </div>
             </a>
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Room at Les mouettes Hotel">
               </div>
               <div class="cardContent">
                 <h3>Les mouettes Hotel</h3>
@@ -166,9 +155,9 @@
                 </div>
               </div>
             </a>
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Room at Hotel de la mer">
               </div>
               <div class="cardContent">
                 <h3>Hotel de la mer</h3>
@@ -182,9 +171,9 @@
                 </div>
               </div>
             </a>
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Room at Auberge Le Panier">
               </div>
               <div class="cardContent">
                 <h3>Auberge Le Panier</h3>
@@ -198,12 +187,12 @@
                 </div>
               </div>
             </a>
-            <a href="" class="accommodationCard">
+            <a href="#" class="accommodationCard">
               <div class="accommodationImg">
-                <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Room at Hotel Chez Amina">
               </div>
               <div class="cardContent">
-                <h3>Hotel chez Amina</h3>
+                <h3>Hotel Chez Amina</h3>
                 <p>Night starting at <strong>96€</strong></p>
                 <div class="stars">
                   <i class="fa-solid fa-star fa-xs fullStar"></i>
@@ -216,7 +205,7 @@
             </a>
           </div>
           <div class="showMore">
-            <a href="">Show more</a>
+            <a href="#"><strong>Show more</strong></a>
           </div>
         </div>
 
@@ -226,9 +215,9 @@
             <i class="fa-solid fa-star"></i>
           </div>
           <div class="mostPopularCards">
-            <a href="" class="mostPopularCard">
+            <a href="#" class="mostPopularCard">
               <div class="mostPopularImg">
-                <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Room at Morning Sun Hotel">
               </div>
               <div class="cardContent">
                 <h3>Morning Sun Hotel</h3>
@@ -242,9 +231,9 @@
                 </div>
               </div>
             </a>
-            <a href="" class="mostPopularCard">
+            <a href="#" class="mostPopularCard">
               <div class="mostPopularImg">
-                <img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Room at Au caeur de l'eau Bed and Breakfast">
               </div>
               <div class="cardContent">
                 <h3>Au caeur de l'eau Bed and Breakfast</h3>
@@ -258,12 +247,12 @@
                 </div>
               </div>
             </a>
-            <a href="" class="mostPopularCard">
+            <a href="#" class="mostPopularCard">
               <div class="mostPopularImg">
-                <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"/>
+                <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Room at Tout Bleu ey Blanc Hotel">
               </div>
               <div class="cardContent">
-                <h3>Tout bleu ey Blanc Hotel</h3>
+                <h3>Tout Bleu ey Blanc Hotel</h3>
                 <p>Night starting at <strong>68€</strong></p>
                 <div class="stars">
                   <i class="fa-solid fa-star fa-xs fullStar"></i>
@@ -285,59 +274,65 @@
         <div class="activitiesCards">
 
           <div class="columnCards">
-            <div class="activitiesCard c01">
-              <div class="activitiesCardImg">
-                <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
-              </div>
+            <a href="#" class="activitiesCard grow">
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Boats at Old Port">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Old Port</h3>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="columnCards">
-            <div class="activitiesCard col02">
-              <div class="activitiesCardImg">
-                <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/>
-              </div>
+            <a href="#" class="activitiesCard">
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Pomègues Fort">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Pomègues Fort</h3>
               </div>
-            </div>
-            <div class="activitiesCard">
-              <div class="activitiesCardImg">
-                <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"/>
-              </div>
+            </a>
+            <a href="#" class="activitiesCard">
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Frioul Island">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Frioul Island</h3>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="columnCards">
-            <div class="activitiesCard">
-              <div class="activitiesCardImg">
-                <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/>
-              </div>
+            <a href="#" class="activitiesCard grow">
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Calanques National Park">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Calanques National Park</h3>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="columnCards">
-            <div class="activitiesCard">
-              <div class="activitiesCardImg">
-                <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"/>
-              </div>
+            <a href="#" class="activitiesCard">
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Notre-Dame-de-la-Garde</h3>
               </div>
-            </div>
+            </a>
             <div class="activitiesCard">
-              <div class="activitiesCardImg col02">
-                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"/>
-              </div>
+              <picture class="activitiesCardImg">
+                <source media="(min-width:992px)" srcset="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Palais Longchamp">
+              </picture>
               <div class="activitiesCardTitle">
                 <h3>Longchamp Park</h3>
               </div>
